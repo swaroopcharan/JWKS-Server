@@ -88,6 +88,7 @@ JWKS endpoint (with valid and expired keys)
 Error handling when no key is available
 
 ## Project Structure
+```plaintext
 jwks-server/
 │
 ├── app.py              # Main Flask application
@@ -96,7 +97,7 @@ jwks-server/
 │   └── key.json        # RSA key pair
 ├── requirements.txt    # List of required Python packages
 └── README.md           # Project documentation
-
+```
 
 ## Code Explanation
 ### Key Generation:
